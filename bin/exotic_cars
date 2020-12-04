@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
 require './lib/exotic_cars'
-puts "hi"
-
-ExoticCars::CLI.new.call
+require './config/environment'
+ExoticCars

@@ -1,5 +1,2 @@
-class ExoticCars::class
-def call
-    puts "Which Exotic Car would you like to see?"
-    end
-end
+require './config/environment'
+ExoticCars::CLI.new.call
